@@ -1,7 +1,6 @@
 from time import time
 from django.db import models
-
-# Create your models here.
+# create Todo Model
 class Todo(models.Model):
     title=models.CharField(max_length=25)
     desc=models.TextField()
